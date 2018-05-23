@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="?android:attr/alertDialogIcon"
+            android:title="pm25 Now" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/star_big_on"
+            android:title="pm25 Predict" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/googleg_standard_color_18"
+            android:title="unknown" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/googleg_standard_color_18"
+            android:title="unknown" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

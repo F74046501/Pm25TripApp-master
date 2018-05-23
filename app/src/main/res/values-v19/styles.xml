@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 主要action bar顏色 -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- 狀態列顏色 -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="actionBarSize">25pt</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+    </style>
+
+</resources>
